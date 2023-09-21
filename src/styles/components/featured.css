@@ -1,0 +1,50 @@
+.featured {
+	position: relative;
+	min-height: 580px;
+	background: #fff url(/assets/pattern.jpg);
+	display: flex;
+	align-items: center;
+	margin-bottom: 10rem;
+}
+
+@media (max-width: 1709px) {
+	.featured {
+		padding-bottom: 0rem;
+	}
+}
+
+.featured-title {
+	padding-bottom: 2.3rem;
+}
+
+.featured-card-item {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.featured-card-item>img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid white;
+	border-radius: 50%;
+	object-fit: contain;
+}
+
+.featured-card-item>h3 {
+	margin-top: 15px;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	color: var(--primary);
+}
+
+.featured-card-item>p {
+	width: 314px;
+	text-align: center;
+	margin: 0 auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+	color: var(--black);
+}

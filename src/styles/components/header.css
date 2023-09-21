@@ -1,0 +1,102 @@
+.header {
+	background: linear-gradient(90.31deg, #2659cf 7.18%, #0c1259 73.04%);
+}
+
+.navbar {
+	padding-top: 38px !important;
+	padding-bottom: 24px !important;
+}
+
+@media (max-width: 991px) {
+	.navbar {
+		padding: 0.5rem !important;
+	}
+}
+
+.navbar-brand {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.navbar-brand>img {
+	width: 119px !important;
+}
+
+@media (max-width: 1709px) {
+	.navbar-brand>img {
+		width: 100px !important;
+	}
+}
+
+.active {
+	border-bottom: 3px solid !important;
+	padding-top: 5px !important;
+}
+
+.nav-link {
+	position: relative;
+	color: var(--white) !important;
+	font-style: normal;
+	font-weight: bolder !important;
+	font-size: 17px;
+	line-height: 26px !important;
+	font-family: "Poppins", sans-serif !important;
+	margin-left: 42px !important;
+	transition: color .15s ease-in-out,
+		background-color .15s ease-in-out,
+		border-color .15s ease-in-out;
+}
+
+.header .nav-item .nav-link:not(.active)::after {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3px;
+	z-index: 7;
+	content: '';
+	position: absolute;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+	background: #fff;
+	-webkit-transition: -webkit-transform 0.4s ease;
+	transition: -webkit-transform 0.4s ease;
+	transition: transform 0.4s ease;
+	transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+
+.header .nav-item .nav-link:not(.active):hover::after {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+
+@media (max-width: 990px) {
+	.nav-link {
+		margin-left: 0 !important;
+	}
+}
+
+.nav-link:last-child {
+	margin-right: 0 !important;
+}
+
+.btn-white {
+	color: var(--primary) !important;
+	background-color: var(--white) !important;
+	font-family: "Poppins", sans-serif !important;
+	font-size: 12px !important;
+	font-weight: 600 !important;
+	line-height: 18px !important;
+	font-style: normal !important;
+}
+
+@media (max-width: 990px) {
+	.btn-white {
+		display: inline-block;
+		width: 100%;
+	}
+}

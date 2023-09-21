@@ -1,0 +1,35 @@
+.hero {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide > img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.loader{
+	padding: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loader img{
+	width: 60px;
+}

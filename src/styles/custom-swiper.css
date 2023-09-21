@@ -1,0 +1,28 @@
+.swiper-button-prev {
+    background-image: url(/assets/arrow-right-bold.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: calc(var(--swiper-navigation-size)/ 30 * 27) !important;
+    top: 45% !important;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next {
+    background-image: url(/assets/arrow-right-bold.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next::after {
+    display: none;
+}

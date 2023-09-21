@@ -1,0 +1,26 @@
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 100px 0 150px 0;
+    background: #fff url(/assets/pattern.jpg);
+    padding-bottom: 25rem;
+}
+
+@media (max-width: 1709px) {
+    .content {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding-bottom: 10rem;
+    }
+}

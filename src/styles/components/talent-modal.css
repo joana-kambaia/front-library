@@ -1,0 +1,29 @@
+.custom-file-input{
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+.custom-file-input + label {
+    border: 1px dashed #C4C4C4;
+    background-color: red;
+    height: 151px;
+    cursor: pointer;
+    color: #676767;
+    background: var(--white);
+    font-weight: 400;
+    font-size: 10px;
+    padding-top: 67px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.custom-file-input:focus+label,
+.custom-file-input+label:hover {
+    background: var(--white);
+}
+
+#hidden {
+    visibility: hidden;
+}

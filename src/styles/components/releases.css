@@ -1,0 +1,96 @@
+.release {
+	position: relative;
+	background: #fff url(/assets/pattern.jpg);
+	padding: 33px 0 0 0;
+}
+
+.release-title {
+	margin: 70px 0 30px 0;
+}
+
+@media (max-width: 768px) {
+	.release-title {
+		margin-top: -15px;
+	}
+}
+
+.release-card {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+	.release-card {
+		flex-direction: column;
+	}
+}
+
+/* .release-card>.swiper-wrapper>.swiper-slide {
+	width: 573px!important;
+	margin-right: 20px !important;
+} */
+
+/* @media (max-width: 1709px) {
+	.release-card>.swiper-wrapper>.swiper-slide {
+		width: 440px !important;
+		margin-right: 29px !important;
+	}
+} */
+
+.release-card-item {
+	width: 450px;
+	height: 515px;
+}
+
+@media (max-width: 768px) {
+	.release-card-item {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.release-card-item>img {
+	width: 100%;
+	border-radius: 7px;
+	object-fit: contain;
+}
+
+@media (max-width: 768px) {
+.release-card-item>img {
+		width: 90%;
+	}
+}
+
+.release-card-item>h3 {
+	font-weight: 600 !important;
+	font-style: normal;
+	font-size: 1rem;
+	color: var(--black);
+	text-align: center;
+	margin-top: 1.3rem;
+}
+
+/* @media (max-width: 1709px) {
+	.release-card-item>h3 {
+		margin-top: 1.3rem;
+	}
+} */
+
+@media (max-width: 768px) {
+	.release-card-item>h3 {
+		margin-top: 0.7rem;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.release-card-item>h3 {
+		font-size: 1rem;
+	}
+}

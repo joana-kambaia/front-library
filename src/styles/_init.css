@@ -1,0 +1,19 @@
+@import "./components/header.css";
+@import "./components/hero.css";
+@import "./components/releases.css";
+@import "./components/featured.css";
+@import "./components/about.css";
+@import "./components/footer.css";
+@import "./components/talent-modal.css";
+
+/* Css views */
+
+@import "./views/about-us.css";
+@import "./views/books.css";
+@import "./views/author.css";
+@import "./views/page.css";
+@import "./views/store.css";
+
+/* custom library */
+
+@import "./custom-swiper.css";
